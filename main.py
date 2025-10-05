@@ -17,7 +17,7 @@ r.raise_for_status()
 tables = pd.read_html(StringIO(r.text))
 if tables:
     df = tables[0]
-    df.to_csv('twitter_scrape_guide.csv', index=False, encoding='utf-8-sig')
-    print(df.to_string())
+    df.to_csv('twitter_scrape_guide.csv', index=True, encoding='utf-8-sig')
+    print("Table saved to 'twitter_scrape_guide.csv'.")
 else:
     print("No tables found.")
