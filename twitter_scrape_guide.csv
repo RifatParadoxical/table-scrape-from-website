@@ -1,0 +1,7 @@
+﻿0,1,2
+Tool / Library,Best For,Strengths
+Multilogin,Browser profile & proxy management,"Reduces detection risk; supports large-scale automation; team-ready, built-in proxies"
+Playwright,Full-page scraping & dynamic content,Renders JavaScript; intercepts network requests; simulates real user flow
+Requests / httpx,Lightweight API calls & static JSON,Fast; simple; reliable for REST endpoints
+JMESPath,JSON parsing & restructuring,Query nested JSON cleanly; simplifies extraction
+Scrapfly SDK (Optional),Scaling high-volume scraping projects,Built-in proxy rotation; JavaScript rendering; anti-bot bypass features
